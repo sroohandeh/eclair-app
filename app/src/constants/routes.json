@@ -1,0 +1,7 @@
+{
+  "WELCOME": "/",
+  "ABOUT": "/about",
+  "HOME": "/home",
+  "LOGOUT": "/logout",
+  "SETTINGS": "/settings"
+}

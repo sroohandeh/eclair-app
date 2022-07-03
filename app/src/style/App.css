@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "IranSans";
+    src: local("IranSans"),
+        url("../font/IRANSansWeb.woff") format("truetype");
+}
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.intro {
+    height: 100%;
+}
+
+@media (min-height: 200px) and (max-height: 350px) {
+    .intro {
+        height: auto;
+    }
+}
+
+.gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00FF94 0%, #720059 100%), linear-gradient(121.28deg, #669600 0%, #FF0000 100%), linear-gradient(360deg, #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+    text-align: center;
+}
+
+* {
+    font-family: 'IranSans';
+}
+
+.form-label {
+    font-size: 14px;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, .5);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-100 {
+    line-height: 1;
+}
+
+.lh-125 {
+    line-height: 1.25;
+}
+
+.lh-150 {
+    line-height: 1.5;
+}
+
+.about {
+    text-align: justify;
+}
+
+.form-check-label {
+    font-size: 13px;
+}
